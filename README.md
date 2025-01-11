@@ -1,6 +1,6 @@
 # finalResolution
 
-Hello my friends, I'm happy to introduce finalResolution 0.9!
+Hello everyone, I'm happy to introduce finalResolution 0.9!
 
 The final beta release of these tools will become publicly available on this portal after the v1.0 rollout. If you are reading this before then, I'm happy to have you for testing and look forward to your feedback!
 
@@ -33,7 +33,9 @@ I would like to make setup scripts for Windows & popular Linux distros respectiv
 
 **idLookup** - Resolves an IP address using Shodan's public InternetDB service. The InternetDB can resolve shortened ipv6 addresses as well.
 
-**idLookup-X** - Expanded results for a specific value when checking IPs on the InternetDB. If you find a load balancer for example, a lot of times you will not be able to see all the hostnames from standard view. If you run the IP through here and expand the hostnames column, it will format a list of hostnames for that IP. 
+**idLookup**-T - Reformatted layout for idLookup. Displays results in a table. I find this useful if I know I am going to call a few hosts in a row but dont have a list I can scan all at once.
+
+**idLookup**-X - Expanded results for a specific value when checking IPs on the InternetDB. If you find a load balancer for example, a lot of times you will not be able to see all the hostnames from standard view. If you run the IP through here and expand the hostnames column, it will format a list of hostnames for that IP. 
 
 Sometimes, the domain may block the internetDB from indexing the address. In these cases, I often see a ton of ports flooding the results. You can validate this usually by checking the common platform enumerator {cpes} value, and it will usually have the name of a security appliance (i.e Imperva).
 
