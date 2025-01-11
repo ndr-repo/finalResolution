@@ -39,7 +39,8 @@ I would like to make setup scripts for Windows & popular Linux distros respectiv
 
 Sometimes, the domain may block the internetDB from indexing the address. In these cases, I often see a ton of ports flooding the results. You can validate this usually by checking the common platform enumerator {cpes} value, and it will usually have the name of a security appliance (i.e Imperva).
 
-![q9Lookup](https://github.com/user-attachments/assets/5824df60-2dff-46b9-a05a-81bfb21f267e)
+![q9Lookup](https://github.com/user-attachments/assets/b9c261b7-545b-4a40-ae0e-7d8e3c25a877)
+
 **q9Status** - Check if a hostname is blocked by Quad9 DNS. This will show who flagged the host as malicious. [Source Indicator - Alienvault OTX](https://otx.alienvault.com/pulse/67427da18d25f8ccab50b440)
 
 # Validators
