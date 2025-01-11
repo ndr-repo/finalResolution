@@ -27,6 +27,8 @@ I would like to make setup scripts for Windows & popular Linux distros respectiv
 
 **cfResolv**-v - Resolve a hostname through multiple public CloudFlare resolvers. At times, you can find different entries for the same hostname this way that may not have been previously visible.
 
+![gnResolv](https://github.com/user-attachments/assets/4f05c0dc-f874-4f35-9d6c-74c73f336c5d)
+
 **gnResolv** - Pings a host using Shodan's public geonet API, then attempts a lookup of the hostname using various geonet servers across the globe. This can be useful for identifying load balancers or mirror servers created for availability on a target domain.
 
 **idLookup** - Resolves an IP address using Shodan's public InternetDB service. The InternetDB can resolve shortened ipv6 addresses as well.
