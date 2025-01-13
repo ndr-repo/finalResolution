@@ -13,7 +13,7 @@ At most, I would use them to find any initial indicators (i.e: Quad9 blocked ___
 
 I would like to make setup scripts for Windows & popular Linux distros respectively for quickly setting the script folders to PATH/environment variables. In the mean time, I recommend manually adding the 'Resolvers' and 'Validators' folder to your PATH for quick use. This is what I personally do. 
 
-# Quick Reference - Command Syntax
+## Quick Reference - Command Syntax
 
 **-Resolv** -  Uses a hostname 
 
