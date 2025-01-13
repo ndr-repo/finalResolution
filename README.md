@@ -1,6 +1,4 @@
-# finalResolution
-
-Welcome to finalResolution! 
+# Welcome to finalResolution! 
 
 finalResolution is an optimized collection of scripts for working with common network indicators. These are mostly time savers that I use for validating external presence on the net & performing quick lookups of hostnames and IPs through common APIs. 
 
