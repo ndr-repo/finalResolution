@@ -17,9 +17,9 @@ I would like to make setup scripts for Windows & popular Linux distros respectiv
 
 11JAN25: I recovered some of my scripts that I wrote in my Fedora 38 days. I wanted to include these in the toolkit, so I changed the names of some of the scripts for clarity.
 
-** - *Resolv ** -  Uses a hostname 
+**-Resolv** -  Uses a hostname 
 
-** - *Lookup ** -  Uses an IP address
+**-Lookup** -  Uses an IP address
 
 # Resolvers
 
