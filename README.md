@@ -4,9 +4,7 @@ Hello everyone, I'm happy to introduce finalResolution 0.9!
 
 The final beta release of these tools will become publicly available on this portal after the v1.0 rollout. If you are reading this before then, I'm happy to have you for testing and look forward to your feedback!
 
-Included are optimized tools I have written over the last year that have helped me save time when working with common network indicators. I plan to expand these over the next few days to create easy calls of a few other related one-liners similar to what you can find here. 
-
-These are mostly time savers that I use for validating external presence on the net & performing quick lookups of hostnames and IPs through common APIs. 
+Included are optimized tools I have written over the last year that have helped me save time when working with common network indicators. I plan to expand these over the next few days to create easy calls of a few other related one-liners similar to what you can find here. These are mostly time savers that I use for validating external presence on the net & performing quick lookups of hostnames and IPs through common APIs. 
 
 This *can* be used for threat hunting, but I mostly use these during external pentest work and not for creating CTI. 
 I would definitely recommend the resolvers over a traditional nslookup when working with indicators, since these tools all resolve by proxy through another host and not your own box.
@@ -15,7 +13,7 @@ At most, I would use them to find any initial indicators (i.e: Quad9 blocked ___
 
 I would like to make setup scripts for Windows & popular Linux distros respectively for quickly setting the script folders to PATH/environment variables. In the mean time, I recommend manually adding the 'Resolvers' and 'Validators' folder to your PATH for quick use. This is what I personally do. 
 
-11JAN25: I recovered some of my scripts that I wrote in my Fedora 38 days. I wanted to include these in the toolkit, so I changed the names of some of the scripts for clarity.
+# Quick Reference - Command Syntax
 
 **-Resolv** -  Uses a hostname 
 
