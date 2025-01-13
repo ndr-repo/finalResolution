@@ -2,9 +2,7 @@
 
 Welcome to finalResolution! 
 
-finalResolution is an optimized collection of scripts for working with common network indicators. 
-
-These are mostly time savers that I use for validating external presence on the net & performing quick lookups of hostnames and IPs through common APIs. 
+finalResolution is an optimized collection of scripts for working with common network indicators. These are mostly time savers that I use for validating external presence on the net & performing quick lookups of hostnames and IPs through common APIs. 
 
 These can be used for threat hunting, but I mostly use these during external pentest work and not for creating CTI. 
 I would definitely recommend the resolvers over a traditional nslookup when working with indicators, since these tools all resolve by proxy through another host and not your own box. 
