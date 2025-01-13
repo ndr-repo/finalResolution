@@ -1,12 +1,13 @@
 # finalResolution
 
-Hello everyone, I'm happy to introduce finalResolution 0.9!
+Welcome to finalResolution! 
 
-The final beta release of these tools will become publicly available on this portal after the v1.0 rollout. If you are reading this before then, I'm happy to have you for testing and look forward to your feedback!
+finalResolution is an optimized collection of scripts I have written over the last year for working with common network indicators.
+These are mostly time savers that I use for validating external presence on the net & performing quick lookups of hostnames and IPs through common APIs. 
 
-Included are optimized tools I have written over the last year that have helped me save time when working with common network indicators. I plan to expand these over the next few days to create easy calls of a few other related one-liners similar to what you can find here. These are mostly time savers that I use for validating external presence on the net & performing quick lookups of hostnames and IPs through common APIs. 
+I will continue to update the repository with more tools as time goes on. Most of my time with new tools is spent performing internal QA to ensure they are easy to read from your IDE and provide a good experience during input handling.
 
-This *can* be used for threat hunting, but I mostly use these during external pentest work and not for creating CTI. 
+These can be used for threat hunting, but I mostly use these during external pentest work and not for creating CTI. 
 I would definitely recommend the resolvers over a traditional nslookup when working with indicators, since these tools all resolve by proxy through another host and not your own box.
 
 At most, I would use them to find any initial indicators (i.e: Quad9 blocked ___ hostname), and then moving your work over to a CTI platform for OSINT like [AlienVault OTX](https://otx.alienvault.com/). 
