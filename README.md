@@ -42,4 +42,5 @@ Sometimes, the domain may block the internetDB from indexing the address. In the
 
 **mvWhoami** - An external check to validate connections to Mullvad VPN. This uses their public "Am I Mullvad?" service and a good second-opinion scan after your local command line if youre doing things like split tunneling or using proxies.
 
-**cfUagTest** - Cloudflare User-Agent Test - Test a user-agent on Cloudflare Trace to see how it looks on the other end. Verify discrepencies against parsers, etc.
+![cfUagTest](https://github.com/user-attachments/assets/a82682b3-b0b1-4feb-83e7-01daaeaeaa82)
+**cfUagTest** - Cloudflare User-Agent Test. Test a user-agent on Cloudflare Trace to see how it looks on the other end. Verify discrepencies against parsers, etc.
