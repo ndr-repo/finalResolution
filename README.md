@@ -6,7 +6,7 @@ These can be used for threat hunting, but I mostly use these during external pen
 I would definitely recommend the resolvers over a traditional nslookup when working with indicators, since these tools all resolve by proxy through another host and not your own box. 
 At most, I would use them to find any initial indicators (i.e: Quad9 blocked ___ hostname), and then move the work over to a CTI platform for OSINT like [AlienVault OTX](https://otx.alienvault.com/). 
 
-I will continue to update the repository with more tools as time goes on. Most of my time with new additions is spent performing internal QA to ensure they are easy to read from the IDE and provide a good experience during input handling. 
+I will continue to update the repository with more tools as time goes on. Most of my time with new additions is spent performing internal QA to ensure they are easy to read from the IDE and provide a good experience during input handling. :)
 
 Plans include setup scripts for Windows & popular Linux distros to quickly set the script folders to PATH/environment variables. In the mean time, I recommend manually adding the 'Resolvers' and 'Validators' folder to your PATH for quick use. This is what I personally do. 
 
