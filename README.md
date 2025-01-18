@@ -6,7 +6,9 @@ These can be used for threat hunting, but I mostly use these during external pen
 I would definitely recommend the resolvers over a traditional nslookup when working with indicators, since these tools all resolve by proxy through another host and not your own box. 
 At most, I would use them to find any initial indicators (i.e: Quad9 blocked ___ hostname), and then move the work over to a CTI platform for OSINT like [AlienVault OTX](https://otx.alienvault.com/). 
 
-I will continue to update the repository with more tools as time goes on. Most of my time with new tools is spent performing internal QA to ensure they are easy to read from the IDE and provide a good experience during input handling. I would also like to make setup scripts for Windows & popular Linux distros respectively to quickly set the script folders to PATH/environment variables. In the mean time, I recommend manually adding the 'Resolvers' and 'Validators' folder to your PATH for quick use. This is what I personally do. 
+I will continue to update the repository with more tools as time goes on. Most of my time with new additions is spent performing internal QA to ensure they are easy to read from the IDE and provide a good experience during input handling. :)
+
+Plans include setup scripts for Windows & popular Linux distros to quickly set the script folders to PATH/environment variables. In the mean time, I recommend manually adding the 'Resolvers' and 'Validators' folder to your PATH for quick use. This is what I personally do. 
 
 ## Quick Reference - Command Syntax
 
@@ -41,3 +43,10 @@ Sometimes, the domain may block the internetDB from indexing the address. In the
 **cfWhoami** - Check your external IP address, user-agent, and detected location using CloudFlare's public trace services.
 
 **mvWhoami** - An external check to validate connections to Mullvad VPN. This uses their public "Am I Mullvad?" service and a good second-opinion scan after your local command line if youre doing things like split tunneling or using proxies.
+
+![cfUagTest](https://github.com/user-attachments/assets/a82682b3-b0b1-4feb-83e7-01daaeaeaa82)
+**cfUagTest** - Cloudflare User-Agent Test. Test a user-agent on Cloudflare Trace to see how it looks on the other end. Verify discrepencies against parsers, etc.
+
+## Support
+- If you find use from this, consider supporting my work on [Ko-fi](https://ko-fi.com/weekndr_sec). 
+- As of this release, I'm currently consulting full-time and get paid by the project, not by my time.
