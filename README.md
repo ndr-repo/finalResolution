@@ -46,3 +46,7 @@ Sometimes, the domain may block the internetDB from indexing the address. In the
 
 ![cfUagTest](https://github.com/user-attachments/assets/a82682b3-b0b1-4feb-83e7-01daaeaeaa82)
 **cfUagTest** - Cloudflare User-Agent Test. Test a user-agent on Cloudflare Trace to see how it looks on the other end. Verify discrepencies against parsers, etc.
+
+## Support
+- If you find use from this, consider supporting my work on [Ko-fi](https://ko-fi.com/weekndr_sec). 
+- As of this release, I'm currently consulting full-time and get paid by the project, not by my time.
