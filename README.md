@@ -8,13 +8,15 @@ At most, I would use them to find any initial indicators (i.e: Quad9 blocked ___
 
 I will continue to update the repository with more tools as time goes on. Most of my time with new additions is spent performing internal QA to ensure they are easy to read from the IDE and provide a good experience during input handling. :)
 
-Plans include setup scripts for Windows & popular Linux distros to quickly set the script folders to PATH/environment variables. In the mean time, I recommend manually adding the 'Resolvers' and 'Validators' folder to your PATH for quick use. This is what I personally do. 
+Plans include setup scripts for Windows & popular Linux distros to quickly set the script folders to PATH/environment variables. In the mean time, I recommend manually adding the 'Resolvers', 'Web', and 'Validators' folder to your PATH for quick use. This is what I personally do. 
 
 ## Quick Reference - Command Syntax
 
 **-Resolv** -  Uses a hostname 
 
 **-Lookup** -  Uses an IP address
+
+**.\Web\*.ps1** - These all function seperately but include interactive prompts as you go. For the most part, these are functionally alike with the Golang tool, gau. Consider them a parady of sorts for Powershell.
 
 # Resolvers
 
