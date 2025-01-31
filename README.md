@@ -12,9 +12,9 @@ Plans include setup scripts for Windows & popular Linux distros to quickly set t
 
 ## Quick Reference - Command Syntax
 
-**Resolvers *-Resolv** -  Uses a hostname 
+**Resolvers -Resolv** -  Uses a hostname 
 
-**Resolvers *-Lookup** -  Uses an IP address
+**Resolvers -Lookup** -  Uses an IP address
 
 **Enumeration - Subdomains** - These function seperately but include interactive prompts. Various passive discovery tools for subdomain enumneration using open-source intelligence platforms.
 
