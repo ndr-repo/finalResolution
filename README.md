@@ -16,7 +16,9 @@ Plans include setup scripts for Windows & popular Linux distros to quickly set t
 
 **-Lookup** -  Uses an IP address
 
-**Web Tools** - These all function seperately but include interactive prompts as you go. For the most part, these are functionally alike with the Golang tool, gau. Consider them a parody of sorts, rewritten for Powershell.
+**Enumeration - Subdomains** - These function seperately but include interactive prompts. Various passive discovery tools for subdomain enumneration using open-source intelligence platforms.
+
+**Web - Archives** - These all function seperately but include interactive prompts as you go. For the most part, these are functionally alike with the Golang tool, gau. Consider them a parody of sorts, rewritten for Powershell.
 
 # Resolvers
 
