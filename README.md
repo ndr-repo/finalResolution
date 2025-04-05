@@ -49,4 +49,3 @@ Sometimes, the domain may block the internetDB from indexing the address. In the
 
 ## Support
 - If you find use from this, consider supporting my work on [Ko-fi](https://ko-fi.com/weekndr_sec). 
-- As of this release, I'm currently consulting full-time and get paid by the project, not by my time.
