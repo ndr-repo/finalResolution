@@ -1,8 +1,8 @@
 # Welcome to finalResolution! 
 
-finalResolution is an optimized collection of PowerShell scripts for working with common network indicators. These are mostly time savers for validating situational awareness (i.e: how's my VPN looking?) & performing quick lookups of hostnames and IPs through common APIs. 
+finalResolution is a collection of PowerShell scripts for working with common network indicators. These are mostly time savers for validating situational awareness (i.e: how's my VPN looking?) & performing quick lookups of hostnames and IPs through common APIs. 
 
-These can be used for threat hunting, but I mostly use them for pentesting. I will continue to update the repository with more tools as time goes on. :)
+These can be used for threat hunting, but I mostly use them for pentesting. I will continue to update the repository with more tools as time goes on. 
 
 I recommend adding the 'Resolvers', 'Web', and 'Validators' folder to your PATH for quick use. This is what I personally do. 
 
