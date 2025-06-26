@@ -2,10 +2,9 @@
 
 finalResolution is a collection of PowerShell scripts for working with common network indicators. These are mostly time savers for validating situational awareness (i.e: how's my VPN looking?) & performing quick lookups of hostnames and IPs through common APIs. 
 
-These can be used for threat hunting, but I mostly use them for pentesting. I will continue to update the repository with more tools as time goes on. 
+These can be used for threat hunting, pentesting, or security admin work.
 
-I recommend adding the 'Resolvers', 'Web', and 'Validators' folder to your PATH for quick use. This is what I personally do. 
-
+I recommend adding the 'Resolvers', 'Web', and 'Validators' folder to your PATH for quick use. 
 ## Quick Reference - Command Syntax
 
 **Resolvers -Resolv** -  Uses a hostname 
@@ -26,7 +25,7 @@ I recommend adding the 'Resolvers', 'Web', and 'Validators' folder to your PATH 
 
 **gnResolv** - Pings a host using Shodan's public geonet API, then attempts a lookup of the hostname using various geonet servers across the globe. This can be useful for identifying load balancers or mirror servers created for availability on a target domain.
 
-**idLookup** - Resolves an IP address using Shodan's public InternetDB service. The InternetDB can resolve shortened ipv6 addresses as well.
+**idLookup** - Resolves an IP address using Shodan's public InternetDB service. Supports IPv4 & IPv6.
 
 **idLookup**-T - Reformatted layout for idLookup. Displays results in a table. I find this useful if I know I am going to call a few hosts in a row but dont have a list I can scan all at once.
 
